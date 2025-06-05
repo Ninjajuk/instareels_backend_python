@@ -1,0 +1,35 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+env/
+venv/
+.env
+*.env
+*.egg-info/
+.pytest_cache/
+*.ipynb_checkpoints/
+
+# Docker-specific
+*.dockerignore
+docker-compose.yml  # Optional: include if you don’t want to commit this
+.docker/
+
+# Common development files
+.idea/  # PyCharm/IntelliJ
+.vscode/  # VS Code
+*.log
+*.pid
+*.seed
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.bak
+*.swp
+*~
